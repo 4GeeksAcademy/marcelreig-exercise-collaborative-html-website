@@ -1,3 +1,41 @@
 body{
     background: #FFFFFF;
 }
+
+/* Contenedor del fondo con la imagen */
+.hero-section {
+    background-image: url('https://media.istockphoto.com/id/1406960186/es/foto/el-horizonte-de-la-ciudad-de-nueva-york-estados-unidos.jpg?s=612x612&w=0&k=20&c=c3dsEmk2qDY4pAlD9KPLSo7pshKm7FOanMaIyzE3yjE=');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+/* Contenedor del texto y el fondo subrayado */
+.hero-text {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texth1 {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo con color semitransparente para mejorar la legibilidad */
+}
+
+.textp {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo con color semitransparente para mejorar la legibilidad */
+}
+
+
+.hero-text h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 2rem;
+}
